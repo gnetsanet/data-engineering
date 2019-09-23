@@ -1,0 +1,9 @@
+aws {
+  accessKey = 'XXXXXXXXXXXXXXXXXXXXX'
+  secretKey = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+  region = 'us-east-1'
+}
+process {
+  executor = 'awsbatch'
+  queue = 'nf-generic-job-queue-user'
+}
